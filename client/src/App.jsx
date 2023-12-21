@@ -1,12 +1,11 @@
-import { useState } from 'react';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
 import Home from './pages/Home';
 import Wishlist from './pages/Wishlist';
 import MainLayout from './layout/MainLayout';
+import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
