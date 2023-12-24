@@ -20,6 +20,10 @@ nav {
         font-weight: 700;
         line-height: 24px;
         letter-spacing: 0.72px;
+        a{
+          text-decoration: none;
+          color: #000;
+        }
       }
     }
     .nav-elements {
@@ -69,6 +73,11 @@ nav {
           outline: none;
           padding: 5px;
         }
+      }
+      .wishlist-button{
+        background-color: transparent;
+        border: none;
+        outline: none;
       }
     }
   }

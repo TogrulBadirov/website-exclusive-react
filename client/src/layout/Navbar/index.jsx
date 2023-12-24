@@ -7,13 +7,13 @@ const Navbar = () => {
     <nav>
      <div className="nav-container">
      <div className="logo">
-        <h3>Exclusive</h3>
+        <h3><NavLink to="/">Exclusive</NavLink></h3>
       </div>
       <div className="nav-elements">
         <NavLink to="/">Home</NavLink>
         <NavLink to="/wishlist">Contact</NavLink>
         <NavLink to="/wishlist">About</NavLink>
-        <NavLink to="/wishlist">Sign Up</NavLink>
+        <NavLink to="/register">Sign Up</NavLink>
       </div>
       <div className="navbar-components">
         <div className="search-bar">
@@ -33,6 +33,8 @@ const Navbar = () => {
             />
           </svg>
         </div>
+        <NavLink to="/wishlist">
+        <button className="wishlist-button">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="32"
@@ -48,7 +50,10 @@ const Navbar = () => {
             stroke-linejoin="round"
           />
         </svg>
-        <svg
+        </button>
+        </NavLink>
+        <NavLink to="/cart">
+          <svg
           xmlns="http://www.w3.org/2000/svg"
           width="32"
           height="32"
@@ -83,7 +88,7 @@ const Navbar = () => {
             stroke-linecap="round"
             stroke-linejoin="round"
           />
-        </svg>
+        </svg></NavLink>
       </div>
      </div>
     </nav>

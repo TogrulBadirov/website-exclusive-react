@@ -1,10 +1,10 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import WishlistSection from "../../components/WishlistPageComponents/Wishlist"
+import "./index.scss"
 
 const Wishlist = () => {
   return (
     <>
-    <div>Wishlist</div>
+    <WishlistSection/>
     
     </>
   )

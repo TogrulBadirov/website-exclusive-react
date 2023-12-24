@@ -1,0 +1,127 @@
+footer {
+    background-color: #000;
+    color: #fff;
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 80px;
+        padding: 100px 20px;
+
+        h5 {
+            color: #FAFAFA;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px;
+            margin-bottom: 30px;
+        }
+
+        p {
+            color: #FAFAFA;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+        }
+
+        .exclusive {
+            p:nth-child(2) {
+                color: #FAFAFA;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 28px;
+            }
+
+            .email-input {
+                background-color: #000;
+                display: flex;
+                width: 217px;
+                padding: 12px 0px 12px 16px;
+                align-items: center;
+                gap: 32px;
+                border: 2px solid gray;
+                border-radius: 5px;
+                input {
+                    width: 130px;
+                    background-color: transparent;
+                    outline: none;
+                    border: none;
+                    color: var(--Text, #FAFAFA);
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+                button{
+                    background-color: transparent;
+                    outline: none;
+                    border: none;
+                }
+            }
+        }
+
+        .support {
+            width: 200px;
+        }
+
+        .download-app {
+            .application {
+                display: grid;
+                grid-template-columns: repeat(3);
+                grid-template-rows: repeat(2);
+                grid-column-gap: 50px;
+
+                // grid-row-gap: 20px;
+                div {
+                    img {
+                        max-width: 100px;
+                        cursor: pointer;
+                        // height: 100%;
+                        // object-fit: contain;
+                    }
+                }
+
+                .div1 {
+                    grid-area: 1 / 1 / 3 / 3;
+                    padding: 10px;
+                    background-color: #fff;
+                    margin-right: 50px;
+                }
+
+                .div2 {
+                    grid-area: 1 / 2 / 2 / 4;
+                    background-color: #000;
+                    padding-left: 10px;
+
+                    // height: max-content;
+                    // height: 100%;
+                    // padding: 15px;
+                    img {
+                        width: 100%;
+                        height: 50px;
+                        object-fit: cover;
+                    }
+                }
+
+                .div3 {
+                    grid-area: 2 / 2 / 3 / 4;
+                    background-color: #000;
+                    padding-left: 10px;
+
+                    //  height: 50px;
+                    img {
+                        width: 100%;
+                        height: 50px;
+                        object-fit: cover;
+                    }
+                }
+
+            }
+
+
+        }
+    }
+}

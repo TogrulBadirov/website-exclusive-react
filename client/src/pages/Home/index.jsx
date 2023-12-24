@@ -4,6 +4,8 @@ import Header from '../../components/Header'
 import FlashSales from '../../components/HomePageComponents/FlashSales'
 import BrowseByCategory from '../../components/HomePageComponents/BrowseByCategory'
 import MusicExperience from '../../components/HomePageComponents/MusicExperience'
+import NewArrival from '../../components/HomePageComponents/NewArrival'
+import ServicesSection from '../../components/HomePageComponents/ServicesSection'
 
 const Home = () => {
   return (
@@ -14,7 +16,8 @@ const Home = () => {
     <FlashSales  title="Best Selling Products" />
     <MusicExperience/>
     <FlashSales  title="Explore Our Products" />
- 
+    <NewArrival/>
+    <ServicesSection/>
     </>
   )
 }
